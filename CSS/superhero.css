@@ -1,0 +1,60 @@
+/*-------------------------- Variables ---------------------------*/
+:root {
+    --text-font: 'fangsong';
+    --background-color: #1e1e1e;
+ 
+}
+
+/*----------------------- SuperHero Section -------------------------*/
+#superhero-section {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+       box-shadow:  0px 0px 6px 4px black;
+}
+
+.superhero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#superhero-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border: 4px solid var(--background-color);
+    border-radius: 50%;
+     box-shadow:  0px 0px 6px 4px black;
+}
+
+#superhero-name {
+    font-family: var(--text-font);
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+#superhero-description{
+	color: #ab9898;
+	background-color: #454545;
+	border-radius: 8px;
+	 font-size: 15px;
+	  font-family: var(--text-font);
+}
+
+#superhero-comics, #superhero-series, #superhero-stories {
+	 font-family: var(--text-font);
+    font-size: 18px;
+    color: black;
+    margin: 10px 0;
+    background-color: #6f6161;
+    font-weight: bold;
+}
